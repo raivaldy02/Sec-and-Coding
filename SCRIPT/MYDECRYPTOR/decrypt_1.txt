@@ -1,0 +1,32 @@
+1:b       /data/user_de/0/xyz.easypro.httpcustom/code_cache       qo    ho       x       0p    hxxo        Pqqqqr(r u@rrrrrrrrs s8sHsXspsssssstwww xPx
+2:GET / HTTP/1.1[crlf]Host: ctbs-1.sjupiter.net[crlf]Upgrade: websocket[crlf][crlf]
+3:(       cdn.appsflyer.com:80
+4:true
+5:false
+6:lifeTime
+7:true
+8:^       :1ctbs-1.sjupiter.net:443@jupitervpn-Gdgree:123
+9:false
+10:false
+11:kosong
+12:kosong
+13:kosong
+14:true
+15:kosong
+16:false
+17:false
+18:kosong
+19:kosong
+20:false
+21:1   1
+22:false
+23:kosong
+24:false
+25:8       [splitPsiphon][splitPsiphon]
+26:false
+27:{"inbounds": [],"outbounds": [{"mux": {"enabled": false},"protocol": "vmess","settings": {"vnext": [{"address": "6ofj69.scvps.my.id","port": 80,"users": [{"alterId": 0,"id": "556b24e5-0178-4ab9-8b2a-21b1968880e5","level": 8,"security": "auto"}]}]},"streamSettings": {"network": "ws","security": "none","wsSettings": {"headers": {"Host": ""},"path": "/vmessws"}},"tag": "VMESS"}],"policy": {"levels": {"8": {"connIdle": 300,"downlinkOnly": 1,"handshake": 4,"uplinkOnly": 1}}}}
+28:489
+29:false
+30:.       dns.ctbs-1.sjupiter.net
+31:397ed41b6a92d1c14f4825e4c65f0bc561fd26de4a4d3409fa1d71d4034d6218
+32:1.1.1.1 ho       x       qo    ro       hxx                                y    p1    z    8{    ro       y(yhh                            hF    /    83     @H,Xy`yxyy            qo    ho       y       ho         o        P3    (y    ro       HK                                        p    Rx          $-p    y    p    pOx          #p    it    ho       8       @((p    hzz       qo    qo    o                                        ro       z0{{{8|||@}}         6p                                                          6p        H`    p                                                 6p                                                            6p        0h                                                    6p                                                          6p         8    H`                                                  6p        8p                                                    6p        ~~~    ~                                                   6p        }(~@~    P~h~

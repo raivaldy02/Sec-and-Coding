@@ -1,0 +1,36 @@
+[^\w\-\:\/\[\]\ \.\@]+
+
+regex find akun ssh = ([%w%-%.]+):[%d]+@[%w%-]+:[%w]+
+
+cd C:/Users/Unknown/Desktop/BUG/SCRIPT/MyDecryptor
+
+1. Hapus karakter \n(pindah baris),\x27(atau single quote),\"(double quote)
+sed -i ':a;N;$!ba;s/[\n\x27\"]//g' decrypt.txt <nama_file_teks>
+
+2. Hapus karakter nonascii dan karakter yang gak dibutuhin
+sed -i 's/[^\x20-\x7E]//g' decrypt.txt <nama_file_teks>
+
+sed -i ':a;N;$!ba;s/[\n\x27\"]//g' decrypt.txt && sed -i 's/[^\x20-\x7E]//g' decrypt.txt
+
+https://www.mycompiler.io/view/6x3067r2TTU
+
+https://riptutorial.com/lua/topic/5829/pattern-matching
+
+https://stackoverflow.com/questions/40861780/lua-regex-for-ascii0-127-characters
+
+https://regex101.com/r/kWKT5N/1
+
+function splitString(str)
+    match_1, match_2 = str:match("(.-)SplitGanteng(.*)")
+    
+    -- match_2:match("(.-)[\x20](.*)")
+    while (match_2:match("(.-)SplitGanteng(.*)")) do
+        match_1, match_2 = match_2:match("(.-)SplitGanteng(.*)")
+        print(match_1)
+    end
+    
+end
+
+test = "SplitGanteng VALDY SplitGanteng GANTENG SplitGanteng ANAKNYA SplitGanteng SIAPA SplitGanteng "
+splitString(test)
+
